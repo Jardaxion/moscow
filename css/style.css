@@ -1989,7 +1989,7 @@ textarea::placeholder
     }
     .partners
     {
-        padding-top: 94px;
+        margin-top: 94px;
         padding-bottom: 66px;
     }
     .partners__title
