@@ -1855,6 +1855,16 @@ textarea::placeholder
     {
         text-align: center;
     }
+    .header__left
+    {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .header.social:not(:last-of-type)
+    {
+        margin-right: 12px;
+    }
     .slider__slide
     {
             flex-direction: column;
@@ -1943,7 +1953,7 @@ textarea::placeholder
     .sliderMain .slick-dots
     {
         margin-top: 20px;
-        margin-bottom: 43px;
+        margin-bottom: 79px;
     }
     .servies__title::after
     {
@@ -1979,7 +1989,12 @@ textarea::placeholder
     }
     .partners
     {
+        padding-top: 94px;
         padding-bottom: 66px;
+    }
+    .partners__title
+    {
+        margin-bottom: 30px;
     }
     .about__title::after
     {
@@ -2045,6 +2060,14 @@ textarea::placeholder
     {
         margin-right: 0;
         margin-bottom: 80px;
+    }
+    .about__over
+    {
+        right: 24px;
+        bottom: -46px;
+
+        width: 91px;
+        padding: 11px;
     }
     .questions
     {
@@ -2120,6 +2143,14 @@ textarea::placeholder
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
+    }
+    .calculate__title
+    {
+        margin-bottom: 20px;
+    }
+    .calculate__descirption
+    {
+        margin-bottom: 20px;
     }
     .faq__inner
     {
