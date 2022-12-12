@@ -1867,6 +1867,8 @@ textarea::placeholder
     }
     .header__left
     {
+        margin-bottom: 4px;
+
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start;
