@@ -2147,8 +2147,10 @@ textarea::placeholder
     .calculate__title
     {
         margin-bottom: 20px;
+
+        text-align: left;
     }
-    .calculate__descirption
+    .calculate__description
     {
         margin-bottom: 20px;
     }
