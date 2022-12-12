@@ -325,7 +325,7 @@ textarea::placeholder
 .modal
 {
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     top: 0;
     left: 0;
 
@@ -372,7 +372,7 @@ textarea::placeholder
 .modal__background
 {
     position: fixed;
-    z-index: 2;
+    z-index: 9;
     top: 0;
     left: 0;
 
@@ -1014,7 +1014,7 @@ textarea::placeholder
 {
     display: grid;
 
-    grid-template-columns: repeat(4, 24%);
+    grid-template-columns: repeat(2, 49.2%);
     gap: 18px;
 }
 .servies__one
